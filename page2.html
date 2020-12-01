@@ -1,31 +1,17 @@
 <!doctype html>
 <html lang=fr>
 <head>
-    <meta charset="utf-8">
-    <meta name="keywords" content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
-    <meta name="description" content="La chouette Agence est une entreprise de web design qui aide particuliers et entreprises à améliorer la structure et le design de leur sites web.">
-    <meta name="robots" content="none">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <link rel="shortcut icon" type="image/png" href="favicon.jpg">
-    
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="stylesheet" type="text/css" href="./css/font-awesome.min.css">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.min.css">
-	
-    
-	<script async src="./js/jquery-2.1.0.min.js"></script>
-	<script async src="./js/bootstrap.min.js"></script>
-	<script async src="./js/blocs.min.js"></script>
-	<script async src="./js/jqBootstrapValidation.js"></script>
-	<script async src="./js/formHandler.js"></script>
-    <title>page2</title>
-
-    
-<!-- Analytics -->
- 
-<!-- Analytics END -->
-    
+<meta charset="utf-8">
+<meta name=keywords content="seo, google, site web, site internet, agence design paris, agence design, agence design,agence design,agence design,agence design,agence design,agence design,agence design,agence design">
+<meta name=description content="La chouette Agence est une entreprise de web design qui aide particuliers et entreprises à améliorer la structure et le design de leur sites web.">
+<meta name=robots content=none>
+<meta name=viewport content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<link rel="shortcut icon" type=image/png href=favicon.jpg>
+<link rel=stylesheet type=text/css href=./css/bootstrap.css>
+<link rel=stylesheet type=text/css href=style.css>
+<link rel=stylesheet type=text/css href=./css/font-awesome.css>
+<link rel=stylesheet type=text/css href=./css/et-line.css>
+<title>Contact</title>
 </head>
 <body>
 <div class=page-container>
@@ -33,7 +19,7 @@
 <div class="container bloc-sm">
 <nav class="navbar row">
 <div class=navbar-header>
-<a class=navbar-brand href=index.html><img src=img/la-chouette-agence.png alt="atlanta web design logo" height=40 /></a>
+<a class=navbar-brand href=index.html><img src=img/la-chouette-agence.png alt="logo de l'agence web, La chouette agence " height=40 /></a>
 <button id=nav-toggle type=button class="ui-navbar-toggle navbar-toggle" data-toggle=collapse data-target=.navbar-1>
 <span class=sr-only>Toggle navigation</span><span class=icon-bar></span><span class=icon-bar></span><span class=icon-bar></span>
 </button>
@@ -41,10 +27,10 @@
 <div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 <ul class="site-navigation nav navbar-nav">
 <li>
-<a href=index.html>Accueil</a>
+<a href=index.html aria-label="accéder à la page d'accueil">Accueil</a>
 </li>
 <li>
-<a href=page2.html>page2 &gt;</a>
+<a href=page2.html aria-label="accéder à la page Contact">Contact &gt;</a>
 </li>
 </ul>
 </div>
@@ -72,29 +58,26 @@ Parlez-nous de votre projet en complétant le formulaire ci-dessous.
 <div class=col-sm-6>
 <form id=form_1 novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 <div class=form-group>
-<label>
-Nom
-</label>
-<input id=name class=form-control required />
+<label for="name">Nom</label>
+<input id=name class=form-control type=name required aria-label="entrer nom de famille"/>
 </div>
 <div class=form-group>
-<label>
-Adresse email
-</label>
-<input id=email class=form-control type=email required />
+<label for="email">Adresse email</label>
+<input id=email class=form-control type=email required aria-label="entrer adress mail"/>
 </div>
 <div class=form-group>
-<label>
+<label for="input_504">
 Comment nous avez-vous connu ?
 </label>
-<input class=form-control type=email required id=input_504 />
+<input class=form-control type=info1 required id=input_504 aria-label="entrer les informations" aria-labelldy="info1"/>
 </div>
 <div class=form-group>
-<label>
+<label for="message">
 Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-</label><textarea id=message class=form-control rows=4 cols=50 required></textarea>
+</label>
+<textarea aria-label="entrer les informations" aria-labelldy="info2" id=message class=form-control type="info2" rows=4 cols=50 required></textarea>
 </div>
-<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type=submit>
+<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type=submit aria-label="envoyer les informations">
 Envoyer
 </button>
 </form>
@@ -115,25 +98,25 @@ contact@lachouetteagence.com<br>2 place Sathonay 69001 Lyon<br>Ouvert de 9h à 1
 <p class="text-center white bold">
 La chouette agence - Agence web basée à Lyon.<br>
 </p>
-<div class="row row-no-gutters social bold">
+<div class="row row-no-gutters social">
 <div class=col-sm-3>
 <div class=text-center>
-<a class=social href=index.html><span class="fa fa-twitter icon-md"></span></a>
-</div>
-</div>
-<div class=col-sm-3>
-<div class=text-center>
-<a class=social href=index.html><span class="fa fa-facebook icon-md"></span></a>
+<a class=social href=index.html aria-label="lien vers twitter"><span class="fa fa-twitter icon-md"></span></a>
 </div>
 </div>
 <div class=col-sm-3>
 <div class=text-center>
-<a class=social href=index.html><span class="fa fa-dribbble icon-md"></span></a>
+<a class=social href=index.html aria-label="lien vers facebook"><span class="fa fa-facebook icon-md"></span></a>
 </div>
 </div>
 <div class=col-sm-3>
 <div class=text-center>
-<a class=social href=index.html><span class="fa fa-instagram icon-md"></span></a>
+<a class=social href=index.html aria-label="lien vers reseau social"><span class="fa fa-dribbble icon-md"></span></a>
+</div>
+</div>
+<div class=col-sm-3>
+<div class=text-center>
+<a class=social href=index.html aria-label="lien vers instagram"><span class="fa fa-instagram icon-md"></span></a>
 </div>
 </div>
 </div>
@@ -142,5 +125,10 @@ La chouette agence - Agence web basée à Lyon.<br>
 </div>
 </div>
 </div>
+<script async src="./js/jquery-2.1.0.min.js"></script>
+<script async src="./js/bootstrap.min.js"></script>
+<script async src="./js/blocs.min.js"></script>
+<script async src="./js/jqBootstrapValidation.js"></script>
+<script async src="./js/formHandler.js"></script>
 </body>
 </html>
